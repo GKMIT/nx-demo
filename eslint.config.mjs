@@ -37,6 +37,9 @@ export default [
       '**/*.mjs',
     ],
     // Override or add rules here
-    rules: {},
+    rules: {
+      'no-unused-vars': 'error',
+      '@typescript-eslint/no-unused-vars': 'error',
+    },
   },
 ];
